@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgb(0, 0, 0, .7)), url(../assets/bg-netflix.jpg);
+}
+
+.logo{
+    width: 98px;
+    margin-left: 50px;
+}
+
+.form-conteiner{
+    width: 480px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+    padding: 48px 64px 48px 64px;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: aliceblue;
+}
+
+#lembre{
+    color: aliceblue;
+}
+
+.form-login-entrar{
+    background-color: red;
+    color: aliceblue;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.form-login-cod{
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.226);
+    color: aliceblue;
+}
+
+#senha{
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid aliceblue;
+    width: auto;
+    height: 50px;
+
+    margin-bottom: 15px;
+
+}
+
+#email{
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid aliceblue;
+    width: auto;
+    height: 50px;
+
+    margin-bottom: 20px;
+}
+
+#ou{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Esqueceu{
+    text-align: center;
+}

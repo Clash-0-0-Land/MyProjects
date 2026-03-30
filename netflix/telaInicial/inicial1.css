@@ -1,0 +1,83 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgb(0, 0, 0, .7)), url(../assets/bg-netflix.jpg);
+    color: aliceblue;
+}
+
+header {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+
+option {
+    color: black;
+}
+
+.logo {
+    width: 98px;
+}
+
+#Lang {
+
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 10%;
+    background-image: url(./languade-icon.png);
+    font-size: 18px;
+
+}
+
+#entrar {
+    background-color: red;
+    color: aliceblue;
+    border-radius: 10%;
+    border: none;
+    font-size: 18px;
+}
+
+#vamoLa {
+    background-color: red;
+    color: aliceblue;
+    border-radius: 10px;
+    height: 60px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    border: none;
+}
+
+
+
+#email {
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid aliceblue;
+    width: 250px;
+    height: 60px;
+
+}
+
+
+
+button:hover {
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
